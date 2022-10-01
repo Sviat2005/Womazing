@@ -17,6 +17,7 @@ menu {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -36,9 +37,24 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
 .nav {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px; 
+}
+.nav__list {
+    display: flex;
+}
+.nav__item {
+    margin-right: 45px;
+
+}
+.nav__item :last-child {
+    margin-right: 0;
+}
+.nav__link {
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
     
 }
