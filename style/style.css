@@ -52,9 +52,45 @@ body {
 .nav__item :last-child {
     margin-right: 0;
 }
+.nav_link {
+ color: #6e9c9f;
+}
 .nav__link {
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.02em;
+}
+.nav_phone {
+position: relative;
+padding-left: 35px;
+}
+.nav_phone::before {
+    content:'' ;
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 0;
+    top: -4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../image/home/icons/phone.png) ;
+}
+.nav_cart {
+    position: relative;
+    padding-left: 35px;
+    font-size: 8px;
+    width: 24px;
+    height: 24px;
     
+}
+.nav_cart::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: -17px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(//womazing/image/home/icons/shopping-bag.png);
 }
